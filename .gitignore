@@ -1,0 +1,8 @@
+/data/intermediate
+/etc
+/test
+/output
+/analysis
+/genbank-submission
+/data/raw/*gz
+*DS_Store
