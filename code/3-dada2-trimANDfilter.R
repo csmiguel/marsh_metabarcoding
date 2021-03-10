@@ -4,9 +4,7 @@
 # https://scholar.google.co.uk/citations?user=1M02-S4AAAAJ&hl=en
 # March 2021
 ###.............................................................................
-#GOAL: Determination of ASVs
-#We followed the strategy described in [Callahan et al. 2016](http://dx.doi.org/10.12688/f1000research.8986.2)
-# in its latest [update](https://bioconductor.org/help/course-materials/2017/BioC2017/Day1/Workshops/Microbiome/MicrobiomeWorkflowII.html)
+#GOAL: truncate reads
 #PROJECT: spartina-metarizo
 ###.............................................................................
 library(dplyr)
@@ -41,7 +39,7 @@ assertthat::assert_that(all(
   msg = "check read length and truncation paramters")
 
 truncated <-
-  filterAndTrim(
+  dada2::filterAndTrim(
     fnFs, filtFs,
     fnRs, filtRs,
     maxN = 0,
@@ -51,5 +49,8 @@ truncated <-
     multithread = TRUE,
     truncLen = c(trunc_f, trunc_r))
 
-
 #save objects
+write(sample.names, "data/intermediate/sample-names")
+saveRDS(truncated, "data/intermediate/truncated-reads.rds")
+saveRDS(sample.names, "data/intermediate/sample_names.rds")
+save(filt_path, filtFs, filtRs, file = "data/intermediate/filt.Rdata")
