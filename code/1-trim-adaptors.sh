@@ -12,4 +12,4 @@ do
   -o data/intermediate/"$reads"_R1.cutadapt.fastq.gz \
   -p data/intermediate/"$reads"_R2.cutadapt.fastq.gz \
   data/raw/"$reads"_R1.fastq.gz data/raw/"$reads"_R2.fastq.gz
-done > data/intermediate/cutadatp_filtering.txt
+done > output/cutadatp_filtering.txt
