@@ -1,0 +1,40 @@
+###.............................................................................
+# (c) Miguel Camacho Sánchez
+# miguelcamachosanchez@gmail.com // miguelcamachosanchez.weebly.com
+# https://scholar.google.co.uk/citations?user=1M02-S4AAAAJ&hl=en
+# March 2021
+###.............................................................................
+#GOAL: dada ASV estimation
+#PROJECT: spartina-metarizo
+###.............................................................................
+library(dada2)
+library(dplyr)
+load("data/intermediate/errors.Rdata")
+load("data/intermediate/filt.Rdata")
+
+#de-replication
+# removes identical sequences, lowering the computing burden downstream
+derepFs <- dada2::derepFastq(filtFs, verbose = TRUE)
+derepRs <- dada2::derepFastq(filtRs, verbose = TRUE)
+
+#
+names(derepFs) <-
+  names(derepFs) %>%
+    stringr::str_remove("_F_filt.fastq.gz")
+
+names(derepRs) <-
+  names(derepRs) %>%
+    stringr::str_remove("_R_filt.fastq.gz")
+
+#estimate ASVs
+source("code/functions/dada-custom-function.r")
+
+marsh_dadaFs <- dada_1(derepFs, "S-[0-9]|BPCR", errF)
+marsh_dadaRs <- dada_1(derepRs, "S-[0-9]|BPCR", errR)
+greenh_dadaFs <- dada_1(derepFs, "MA-[0-9]|BPCR", errF)
+greenh_dadaRs <- dada_1(derepRs, "MA-[0-9]|BPCR", errR)
+
+#save objects
+save(marsh_dadaFs, marsh_dadaRs,
+  greenh_dadaFs, greenh_dadaRs,
+  file = "data/intermediate/dada.Rdata")
