@@ -4,7 +4,7 @@
 # https://scholar.google.co.uk/citations?user=1M02-S4AAAAJ&hl=en
 # March 2021
 ###.............................................................................
-#GOAL: dada ASV estimation
+#GOAL: dada ASV determination
 #PROJECT: spartina-metarizo
 ###.............................................................................
 library(dada2)
@@ -17,7 +17,7 @@ load("data/intermediate/filt.Rdata")
 derepFs <- dada2::derepFastq(filtFs, verbose = TRUE)
 derepRs <- dada2::derepFastq(filtRs, verbose = TRUE)
 
-#
+#rename dereps
 names(derepFs) <-
   names(derepFs) %>%
     stringr::str_remove("_F_filt.fastq.gz")
@@ -27,7 +27,7 @@ names(derepRs) <-
     stringr::str_remove("_R_filt.fastq.gz")
 
 #estimate ASVs
-source("code/functions/dada-custom-function.r")
+source("code/functions/dada-custom-functions.r")
 
 marsh_dadaFs <- dada_1(derepFs, "S-[0-9]|BPCR", errF)
 marsh_dadaRs <- dada_1(derepRs, "S-[0-9]|BPCR", errR)
@@ -38,3 +38,5 @@ greenh_dadaRs <- dada_1(derepRs, "MA-[0-9]|BPCR", errR)
 save(marsh_dadaFs, marsh_dadaRs,
   greenh_dadaFs, greenh_dadaRs,
   file = "data/intermediate/dada.Rdata")
+save(derepFs, derepRs,
+  file = "data/intermediate/dereps.Rdata")
