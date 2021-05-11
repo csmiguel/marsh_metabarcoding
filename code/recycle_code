@@ -1,0 +1,9 @@
+#show taxonomic ranks in the dataset
+rank_names(ps_greenh)
+
+# ASVs per Kingdom and Phylum
+table(tax_table(ps_greenh)[, "domain"], exclude = NULL)
+table(tax_table(ps_greenh)[, "phylum"], exclude = NULL)
+
+# remove ASVs with NO Phylum assigned and only keep Kingdom Bacteria:
+#ps <- subset_taxa(ps, Kingdom == "Bacteria")

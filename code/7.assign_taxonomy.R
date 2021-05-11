@@ -2,9 +2,9 @@
 # (c) Miguel Camacho Sánchez
 # miguelcamachosanchez@gmail.com // miguelcamachosanchez.weebly.com
 # https://scholar.google.co.uk/citations?user=1M02-S4AAAAJ&hl=en
-# April 2021
+# May 2021
 ###.............................................................................
-#GOAL: assign taxonomy to ASVs using Silva v138 database:
+#GOAL: assign taxonomy to ASVs using Silva v138 database
 #PROJECT: spartina-metarizo
 ###.............................................................................
 library(dada2)
@@ -56,5 +56,5 @@ taxid_greenh <-
 # ACCTGT… Bacter… Desulfobac… Desulfob… Desulfo… Desulfosarc… NA            NA
 
 #save seqs with assigned taxonomy
-saveRDS(taxid_marsh, file = "data/intermediate/ids_marsh.rds")
-saveRDS(taxid_greenh, file = "data/intermediate/ids_greenh.rds")
+saveRDS(taxid_marsh, file = "data/intermediate/taxid_marsh.rds")
+saveRDS(taxid_greenh, file = "data/intermediate/taxid_greenh.rds")

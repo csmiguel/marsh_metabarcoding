@@ -1,8 +1,10 @@
 ###.............................................................................
 # (c) Miguel Camacho Sánchez
-# miguelcamachosanchez@gmail.com // miguelcamachosanchez.weebly.com
-# https://scholar.google.co.uk/citations?user=1M02-S4AAAAJ&hl=en
-# March 2021
+# miguelcamachosanchez AT gmail DOT com // miguelcamachosanchez.weebly.com
+# https://scholar.google.com/citations?user=1M02-S4AAAAJ
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel
+# May 2021
 ###.............................................................................
 #GOAL: truncate reads
 #PROJECT: spartina-metarizo

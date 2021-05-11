@@ -8,3 +8,4 @@
 /genbank-submission
 /data/raw/*gz
 *DS_Store
+.Rproj.user
