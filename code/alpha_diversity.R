@@ -28,15 +28,6 @@ alpha_div <-
   alpha_diversity(ps_pruned, "output/alpha-diversity_vs_readcount.pdf") %>%
   tibble::rownames_to_column("sample_name")
 
-#tidy data for models
-data_glm <-
-  ps2df(ps_pruned)$sample_data %>%
-  dplyr::left_join(dplyr::select(alpha_div, sample_name, Shannon),
-                   by = "sample_name")
-#specify models
-m1 <- glm(Shannon ~ season + species + rhizosphere, data = data_glm)
-m2 <- glm(Shannon ~ season * species + rhizosphere, data = data_glm)
-
 # change of alpha diversity with season
 p1 <-
   data_glm %>% as_tibble() %>%

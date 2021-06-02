@@ -1,2 +1,10 @@
 issues:
 1. add bootstrap bars to alpha diversity.
+2. tune models alpha diversity: have a look at 	https://ourcodingclub.github.io/tutorials/mixed-models/#six
+3. deseq2
+4. raxml
+5. beta diversity
+6. submit sra genbank
+7. writing
+8. github repo
+
