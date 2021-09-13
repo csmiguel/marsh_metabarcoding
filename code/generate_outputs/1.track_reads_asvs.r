@@ -12,8 +12,9 @@ library(dada2)
 library(dplyr)
 
 #filtered and trimmed, in and out
-truncated <- readRDS("data/intermediate/truncated-reads.rds") %>%
-            `rownames<-`(sapply(strsplit(rownames(.), "_"), `[`, 1))
+truncated <-
+  readRDS("data/intermediate/truncated-reads.rds") %>%
+  `rownames<-`(sapply(strsplit(rownames(.), "_"), `[`, 1))
 #dada asvs
 load("data/intermediate/dada.Rdata")
 #merged seqs
@@ -25,62 +26,37 @@ load("data/intermediate/seqtabNoC.Rdata")
 
 # track reads through the pipeline
 getN <- function(x) sum(getUniques(x))
-names_track <- c("sample", "input", "filtered", "denoised",
+names_track <-
+  c("sample", "input", "filtered", "denoised",
   "merged", "tabled", "nonchim", "variants")
 
-#marsh
-track_marsh <-
+track <-
         truncated[grepl(pattern = "S-[0-9]|BPCR", rownames(truncated)), ] %>%
         as.data.frame() %>% rename(reads_in = 1, reads_out = 2) %>%
         tibble::rownames_to_column("sample") %>%
         dplyr::left_join(
-          sapply(marsh_dadaFs, getN) %>% as.data.frame() %>% rename(x = 1) %>%
+          sapply(dadaFs, getN) %>% as.data.frame() %>% rename(x = 1) %>%
             tibble::rownames_to_column("sample"), by = "sample") %>%
         dplyr::left_join(
-          sapply(mergers_marsh, getN) %>% as.data.frame() %>% rename(x = 1) %>%
+          sapply(mergers, getN) %>% as.data.frame() %>% rename(x = 1) %>%
             tibble::rownames_to_column("sample"), by = "sample") %>%
         dplyr::left_join(
-          rowSums(seqtab_marsh_2) %>% as.data.frame() %>% rename(x = 1) %>%
+          rowSums(seqtab2) %>% as.data.frame() %>% rename(x = 1) %>%
             tibble::rownames_to_column("sample"), by = "sample") %>%
         dplyr::left_join(
-          rowSums(seqtabNoC_marsh) %>% as.data.frame() %>% rename(x = 1) %>%
+          rowSums(seqtabNoC) %>% as.data.frame() %>% rename(x = 1) %>%
             tibble::rownames_to_column("sample"), by = "sample") %>%
         dplyr::left_join(
-          apply(seqtabNoC_marsh, 1, function(x) {sum(x > 0)}) %>%
+          apply(seqtabNoC, 1, function(x) {sum(x > 0)}) %>%
           as.data.frame() %>% rename(x = 1) %>%
             tibble::rownames_to_column("sample"), by = "sample") %>%
         setNames(names_track)
 
-#Spartina maritima
-track_greenh <-
-        truncated[grepl(pattern = "MA-[0-9]|BPCR", rownames(truncated)), ] %>%
-        as.data.frame() %>% rename(reads_in = 1, reads_out = 2) %>%
-        tibble::rownames_to_column("sample") %>%
-        dplyr::left_join(
-          sapply(greenh_dadaFs, getN) %>% as.data.frame() %>% rename(x = 1) %>%
-            tibble::rownames_to_column("sample"), by = "sample") %>%
-        dplyr::left_join(
-          sapply(mergers_greenh, getN) %>% as.data.frame() %>% rename(x = 1) %>%
-            tibble::rownames_to_column("sample"), by = "sample") %>%
-        dplyr::left_join(
-          rowSums(seqtab_greenh_2) %>% as.data.frame() %>% rename(x = 1) %>%
-            tibble::rownames_to_column("sample"), by = "sample") %>%
-        dplyr::left_join(
-          rowSums(seqtabNoC_greenh) %>% as.data.frame() %>% rename(x = 1) %>%
-            tibble::rownames_to_column("sample"), by = "sample") %>%
-        dplyr::left_join(
-          apply(seqtabNoC_greenh, 1, function(x) {sum(x > 0)}) %>%
-          as.data.frame() %>% rename(x = 1) %>%
-            tibble::rownames_to_column("sample"), by = "sample") %>%
-        setNames(names_track)
 
 #write results
-write.csv(track_greenh, "output/tracked_reads_greenhouse_exp.csv")
-write.csv(track_marsh, "output/tracked_reads_marsh-plants_exp.csv")
+write.csv(track, "output/tracked_reads.csv")
+
 #write to excel
-xlsx::write.xlsx(track_greenh,
+xlsx::write.xlsx(track,
   file = "output/results.xls",
-  sheetName = "tracked_reads_greenhouse_exp")
-xlsx::write.xlsx(track_marsh,
-  file = "output/results.xls",
-  sheetName = "tracked_reads_marsh", append = T)
+  sheetName = "tracked_reads", append = T)

@@ -15,7 +15,7 @@ library(lme4)
 library(dplyr)
 
 #read filtered phyloseq
-ps <- readRDS("data/intermediate/ps_marsh_filt.rds")
+ps <- readRDS("data/intermediate/ps_filt.rds")
 #load functions
 source("code/functions/ps2df.r")
 source("code/functions/alpha_diversity.r")
@@ -45,16 +45,18 @@ summary(m1)
 ranef(m1)
 sjPlot::plot_model(m1,
                    #axis.labels=c("Urchin", "Depth", "Fish"),
-                   show.values=TRUE, show.p=TRUE,
-                   title="Effect of rhizosphere on diversity")
+                   show.values = TRUE, show.p = TRUE,
+                   title = "Effect of rhizosphere on diversity")
 # Is diversity dependent on the season? div ~season
 m2 <- lme4::lmer(Shannon ~ season + (1|species:rhizosphere), data = data_glm)
 summary(m2)
 sjPlot::plot_model(m2,
                    #axis.labels=c("Urchin", "Depth", "Fish"),
-                   show.values=TRUE, show.p=TRUE, sort.est = TRUE, type = "est",
+                   show.values = TRUE,
+                   show.p = TRUE,
+                   sort.est = TRUE, type = "est",
                    show.intercept = T,
-                   title="Effect of season on diversity")
+                   title = "Effect of season on diversity")
 sjPlot:: tab_model(m2)
 # Is diversity dependent on the species?
 m3 <- lme4::lmer(Shannon ~ species:rhizosphere + (1|season), data = data_glm)
@@ -62,8 +64,8 @@ summary(m3)
 ranef(m3)
 sjPlot::plot_model(m3,
                    #axis.labels=c("Urchin", "Depth", "Fish"),
-                   show.values=TRUE, show.p=TRUE,
-                   title="Effect of rhizosphere on diversity")
+                   show.values = TRUE, show.p = TRUE,
+                   title = "Effect of rhizosphere on diversity")
 
 
 #prepare data for plotting
@@ -75,10 +77,10 @@ h <-
   dplyr::select(1:3) %>%
   dplyr::mutate(season = levels(as.factor(data_glm$season))) %>%
   dplyr::select(season, estimate, std.error)
-h[1,2] <- 0
+h[1, 2] <- 0
 
 ggplot(h, aes(x = season, y = estimate)) +
   geom_point() +
-  geom_errorbar(aes(ymin = estimate-std.error, ymax = estimate+std.error),
-                width=.1) +
+  geom_errorbar(aes(ymin = estimate - std.error, ymax = estimate + std.error),
+                width = .1) +
   ggtitle("Effect of season on alpha diversity")

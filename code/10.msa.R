@@ -15,27 +15,17 @@ library(dplyr)
 library(Biostrings)
 library(phangorn)
 
-#marsh
-ps_marsh <- readRDS("data/intermediate/ps_marsh_filt.rds")
+#phyloseq
+ps <- readRDS("data/intermediate/ps_filt.rds")
+
 # create dir raxml
-dir_marsh <- "data/intermediate/raxml_marsh"
-if(!dir.exists(dir_marsh)) dir.create(dir_marsh)
+dirraxml <- "data/intermediate/raxml"
+if(!dir.exists(dirraxml)) dir.create(dirraxml)
+
 # align sequences, and write to phylip
-phyloseq::refseq(ps_marsh) %>%
+phyloseq::refseq(ps) %>%
   DECIPHER::AlignSeqs(anchor = NA) %>%
   Biostrings::DNAMultipleAlignment() %>%
   phangorn::as.phyDat() %>%
-  phangorn::write.phyDat(file = file.path(dir_marsh, "marsh.phy"),
-                         format = "phylip")
-#greenh
-ps_greenh <- readRDS("data/intermediate/ps_greenh_filt.rds")
-# create dir raxml
-dir_greenh <- "data/intermediate/raxml_greenh"
-if(!dir.exists(dir_greenh)) dir.create(dir_greenh)
-# align sequences, and write to phylip
-phyloseq::refseq(ps_greenh) %>%
-  DECIPHER::AlignSeqs(anchor = NA) %>%
-  Biostrings::DNAMultipleAlignment() %>%
-  phangorn::as.phyDat() %>%
-  phangorn::write.phyDat(file = file.path(dir_greenh, "greenh.phy"),
+  phangorn::write.phyDat(file = file.path(dirraxml, "marsh.phy"),
                          format = "phylip")

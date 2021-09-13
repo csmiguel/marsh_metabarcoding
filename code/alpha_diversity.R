@@ -14,14 +14,16 @@ library(ggplot2)
 library(dplyr)
 
 #read filtered phyloseq
-ps <- readRDS("data/intermediate/ps_marsh_filt.rds")
+ps <- readRDS("data/intermediate/ps_filt.rds")
 #load functions
 source("code/functions/ps2df.r")
 source("code/functions/alpha_diversity.r")
 
-alpha_outliers <- alpha_diversity(ps = ps, "output/alpha_outliers_vs_readcount.pdf")
+alpha_outliers <-
+  alpha_diversity(ps = ps, "output/alpha_outliers_vs_readcount.pdf")
 #alfter visual inspection of the output/alpha_outliers.pdf I remove ones sample:
-ps_pruned <- phyloseq::prune_samples(sample_names(ps)[!sample_names(ps) %in% "S-16"], ps)
+ps_pruned <-
+  phyloseq::prune_samples(sample_names(ps)[!sample_names(ps) %in% "S-16"], ps)
 
 # and recalculate alpha diversity
 alpha_div <-

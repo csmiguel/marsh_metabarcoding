@@ -13,7 +13,7 @@ library(ggplot2)
 library(dplyr)
 library(phyloseq)
 
-ps <- readRDS("data/intermediate/ps_marsh_filt.rds")
+ps <- readRDS("data/intermediate/ps_filt.rds")
 #rarefy
 ps_filt <-
   phyloseq::prune_samples(
@@ -38,6 +38,7 @@ tax_table_phylum <-
   tax_table(ps_phylum)@.Data %>%
   as.data.frame() %>%
   tibble::rownames_to_column("asv")
+
 #vector with most abundant phyla
 vector_names_legend <-
   c(tax_table_phylum$phylum[match(names_top_phyla, tax_table_phylum$asv)], "other")

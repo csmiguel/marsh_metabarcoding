@@ -15,7 +15,7 @@ library(dplyr)
 library(reshape2)
 
 #read filtered phyloseq
-ps <- readRDS("data/intermediate/ps_marsh_filt.rds")
+ps <- readRDS("data/intermediate/ps_filt.rds")
 #load functions
 source("code/functions/alpha_diversity_bt.r")
 source("code/functions/alpha_diversity.r")

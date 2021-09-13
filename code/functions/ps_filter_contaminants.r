@@ -8,7 +8,7 @@ ps_filter_contaminants <- function(ps = NULL, blanks = NULL) {
   #blanks
   blank_postions <- rownames(otu_table(ps)) %in% blanks
   #contanimanion analysis
-  contam_df <- isContaminant(ps, neg = blank_postions)
+  contam_df <- decontam::isContaminant(ps, neg = blank_postions)
   # contaminant ASVs
   contam_asvs <- row.names(contam_df[contam_df$contaminant == TRUE, ])
   # non-contaminant ASVs

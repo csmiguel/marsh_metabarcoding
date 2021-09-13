@@ -14,26 +14,16 @@ library(dplyr)
 library(decontam)
 
 #read phyloseq objects
-ps_marsh <- readRDS("data/intermediate/ps_marsh.rds")
-ps_greenh <- readRDS("data/intermediate/ps_greenh.rds")
+ps <- readRDS("data/intermediate/ps.rds")
 
 #load function to plot prevalence~abundace per phylum
 source("code/functions/phyla_abundance_phyloseq.r")
 
 #create phyloseq object with the negative control
-ps_neg_prevalence_marsh <-
-  phyloseq::prune_samples("BPCR", ps_marsh) %>%
+ps_neg_prevalence <-
+  phyloseq::prune_samples("BPCR", ps) %>%
   plot_abundances()
-report_neg_marsh <-
- ps_neg_prevalence_marsh[[1]] %>%
+report_neg <-
+ ps_neg_prevalence[[1]] %>%
   dplyr::filter(TotalAbundance > 0)
-write.csv(report_neg_marsh, "output/report_neg_marsh.csv")
-
-#greenh
-ps_neg_prevalence_greenh <-
-  phyloseq::prune_samples("BPCR", ps_greenh) %>%
-  plot_abundances()
-report_neg_greenh <-
- ps_neg_prevalence_greenh[[1]] %>%
-  dplyr::filter(TotalAbundance > 0)
-write.csv(report_neg_greenh, "output/report_neg_greenh.csv")
+write.csv(report_neg, "output/report_neg.csv")

@@ -6,7 +6,7 @@ ps_filter_prevalence <- function(ps = NULL,
   #mult_threshold, is the threshold to remove low frequent variants
   #mult is vector originating from the product of reads supporting asv across
   # all samples. ej asv1: 23, 5, 50 , 0 = 23*5*50 = 5,750
-  #prevalence_threshold, at least present in n samples
+  #prevalence_threshold, present in more than n samples
   #abundance_threshold, with at least n reads supporting the asv.
   require(phyloseq)
   require(dplyr)

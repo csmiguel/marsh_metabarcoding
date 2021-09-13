@@ -12,7 +12,7 @@ library(dplyr)
 library(DECIPHER)
 
 #load OTU tables
-load("data/intermediate/seqtabNoC.Rdata")
+seqtabNoC <- readRDS("data/intermediate/seqtabNoC.rds")
 #custom function to assign taxonomy based on IdTaxa
 source("code/functions/assign_taxonomy_decipher.r")
 
@@ -37,18 +37,12 @@ if (!file.exists(file.path(dest_path, db_silva))) {
 load(file.path(dest_path, db_silva))
 
 #2. assign taxonomy
-# marsh
 taxid_marsh <-
-  assign_taxonomy_decipher(seqtabNoC_marsh,
+  assign_taxonomy_decipher(seqtabNoC,
   training_set = trainingSet,
   nprocessors = 1,
   in_parallel = F)
-# greenhouse
-taxid_greenh <-
-  assign_taxonomy_decipher(seqtabNoC_greenh,
-  training_set = trainingSet,
-  nprocessors = 1,
-  in_parallel = F)
+
 #taxid object has the below structure. rownames are seqs and taxonomy in cols.
 # (rownames) domain  phylum    class      order     family    genus     species
 # ACCTAT… Bacter… Campilobac… Campylob… Campylo… Sulfurovace… Sulfurovum    NA
@@ -57,4 +51,3 @@ taxid_greenh <-
 
 #save seqs with assigned taxonomy
 saveRDS(taxid_marsh, file = "data/intermediate/taxid_marsh.rds")
-saveRDS(taxid_greenh, file = "data/intermediate/taxid_greenh.rds")

@@ -31,14 +31,11 @@ names(derepRs) <-
 #estimate ASVs
 source("code/functions/dada-custom-functions.r")
 
-marsh_dadaFs <- dada_1(derepFs, "S-[0-9]|BPCR", errF)
-marsh_dadaRs <- dada_1(derepRs, "S-[0-9]|BPCR", errR)
-greenh_dadaFs <- dada_1(derepFs, "MA-[0-9]|BPCR", errF)
-greenh_dadaRs <- dada_1(derepRs, "MA-[0-9]|BPCR", errR)
+dadaFs <- dada_1(derepFs, "S-[0-9]|BPCR", errF)
+dadaRs <- dada_1(derepRs, "S-[0-9]|BPCR", errR)
 
 #save objects
-save(marsh_dadaFs, marsh_dadaRs,
-  greenh_dadaFs, greenh_dadaRs,
+save(dadaFs, dadaRs,
   file = "data/intermediate/dada.Rdata")
 save(derepFs, derepRs,
   file = "data/intermediate/dereps.Rdata")

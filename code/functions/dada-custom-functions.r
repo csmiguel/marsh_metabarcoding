@@ -1,7 +1,5 @@
 #define function for facilitate the processing of data from both experiments
 # so they dropped in different pools for ASV determination.
-# 1. marsh: all 5 species in the marsh soil.
-# 2. greenh: greenhouse experiment with Spartina maritima.
 ########
 dada_1 <- function(dereplicated = NULL, pattern_derep = NULL, errors = NULL) {
   # dereplicated is a dada de-replicated object.
