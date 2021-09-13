@@ -53,6 +53,6 @@ truncated <-
 
 #save objects
 write(sample.names, "data/intermediate/sample-names")
-saveRDS(truncated, "data/intermediate/truncated-reads.rds")
+saveRDS(truncated, "data/intermediate/truncated_reads.rds")
 saveRDS(sample.names, "data/intermediate/sample_names.rds")
 save(filt_path, filtFs, filtRs, file = "data/intermediate/filt.Rdata")

@@ -13,7 +13,7 @@ library(dplyr)
 
 #filtered and trimmed, in and out
 truncated <-
-  readRDS("data/intermediate/truncated-reads.rds") %>%
+  readRDS("data/intermediate/truncated_reads.rds") %>%
   `rownames<-`(sapply(strsplit(rownames(.), "_"), `[`, 1))
 #dada asvs
 load("data/intermediate/dada.Rdata")

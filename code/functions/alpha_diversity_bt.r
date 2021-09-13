@@ -9,5 +9,5 @@ alpha_diversity_bt <- function(ps = NULL, bt = NULL) {
       do.call(what = cbind) %>%
       as.data.frame() %>%
       setNames(paste0("bt", seq_len(bt))) %>%
-      {cbind(ps2df(ps)$sample_data, .)}
+      {cbind(as(sample_data(ps), "data.frame"), .)}
       }

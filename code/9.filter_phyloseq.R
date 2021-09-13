@@ -22,7 +22,7 @@ dir("code/functions", "ps_filter", full.names = T) %>% sapply(source)
 sink(file = "output/filter_phyloseq.txt")
 
 # filter ASVs from phyloseq
-ps_marsh_filt <-
+ps_filt <-
   ps_filter_phylum_is_NA(ps) %>%
     ps_filter_contaminants("BPCR") %>%
     ps_filter_organelles() %>%

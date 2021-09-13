@@ -8,7 +8,8 @@
 #PROJECT: spartina-metarizo
 ###.............................................................................
 library(phyloseq)
-library(dplyr)
+library(tidyverse)
+library(magrittr)
 
 source("code/functions/taxanames2refseq_ps.r")
 
@@ -31,6 +32,9 @@ assertthat::assert_that(
 #phyloseq allows integrating taxonomy table, ASVs table, metadata
 #phylogenetic trees into an unique phyloseq object for further manipulation.
 rownames(meta) <- meta$sample_name
+meta %<>%
+  mutate(
+    season = factor(season, levels = c("spring", "summer", "autumn", "winter")))
 
 ps <-
   phyloseq::phyloseq(

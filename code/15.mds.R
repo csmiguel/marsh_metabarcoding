@@ -21,12 +21,6 @@ ps <-
 # transformation of the abundances to natural logarithmic scale
 ps_log <- phyloseq::transform_sample_counts(ps, function(x) log(1 + x))
 
-#reorder season levels for plotting
-seasonlevels <-
-  sample_data(ps_log)$season %>%
-  factor(levels = c("spring", "summer", "autumn", "winter"))
-sample_data(ps_log)$season <- seasonlevels
-
 #create grouping factor to connect rhizosphere/bulk soil samples in plot
 sample_data(ps_log) <-
   sample_data(ps_log) %>%

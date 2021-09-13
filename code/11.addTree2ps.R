@@ -23,5 +23,7 @@ ps_t <-
   phangorn::midpoint() %>%
   phyloseq::merge_phyloseq(ps, .)
 
+ps_t_noRep <- phyloseq::subset_samples(ps_t, rep < 2)
 # save phyloseq with tree
 saveRDS(ps_t, "data/intermediate/ps_t.rds")
+saveRDS(ps_t_noRep, "data/intermediate/ps_t_noRep.rds")
