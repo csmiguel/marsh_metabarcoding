@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #trim adaptors
 #Cutadapt cutadapt 2.10 with Python 3.6.11 was used to trim F341 (CCTACGGGNGGCWGCAG)
 #and R785 (GACTACHVGGGTATCTAATCC) primers (Klindworth et al. 2013) from R1 and R2 reads respectively.

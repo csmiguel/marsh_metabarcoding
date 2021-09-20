@@ -71,7 +71,7 @@ p1 <-
         strip.background = element_blank(),
         strip.text.x = element_text(size = 10, face = "italic")) +
   scale_fill_brewer(palette = "Paired") +
-  ylab("Proportion of counts")
+  ylab("Relative abundance")
 
 #save plot
 prop_p1 <- 9 / 7
