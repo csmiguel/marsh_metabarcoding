@@ -1,0 +1,40 @@
+---
+title: "results_summary"
+author: "Miguel Camacho"
+date: "20/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(phyloseq)
+library(tidyverse)
+library(metagMisc)
+library(here)
+```
+
+```{r wd, echo=T}
+here::i_am("code/generate_outputs/results_summary.Rmd")
+```
+
+## sequencing results
+
+## alpha diversity
+
+```{r alpha diversty, echo=T}
+ps <-
+  readRDS(file.path(here(),"data/intermediate/ps_t_noRep.rds")) %>%
+  metagMisc::phyloseq_filter_taxa_rel_abund(0) #rm taxa with 0 abundance
+asv_per_sample <- otu_table(ps) %>% as.data.frame() %>% apply(1, function(x) sum(x > 0))
+```
+
+A final `r phyloseq::ntaxa(ps)` ASVs were determined, ranging from `r min(asv_per_sample)` to `r max(asv_per_sample)` (sd = `r sd(asv_per_sample)`).
+
+## coverage per taxonomic rank
+
+```{r tax coverage, echo=T}
+source(file.path(here(),"code/functions/coverage_rank.r"))
+rcov <- rank_cov(ps)
+rcov
+```
+
