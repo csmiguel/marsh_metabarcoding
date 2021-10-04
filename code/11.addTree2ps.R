@@ -12,9 +12,11 @@
 library(tidyverse)
 library(phyloseq)
 library(phangorn)
+library(metagMisc)
 
 #read phyloseq objects
-ps <- readRDS("data/intermediate/ps_filt.rds")
+ps <-
+  readRDS("data/intermediate/ps_filt.rds")
 
 # add trees to phyloseq objects
 # read tree
@@ -23,7 +25,10 @@ ps_t <-
   phangorn::midpoint() %>%
   phyloseq::merge_phyloseq(ps, .)
 
-ps_t_noRep <- phyloseq::subset_samples(ps_t, rep < 2)
+ps_t_noRep <-
+  phyloseq::subset_samples(ps_t, rep < 2) %>%
+  metagMisc::phyloseq_filter_taxa_rel_abund(0) #rm taxa with 0 abundance
+
 # save phyloseq with tree
 saveRDS(ps_t, "data/intermediate/ps_t.rds")
 saveRDS(ps_t_noRep, "data/intermediate/ps_t_noRep.rds")

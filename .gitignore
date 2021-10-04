@@ -1,11 +1,13 @@
 /data/intermediate
 /data/raw/SILVA_SSU_r138_2019.RData
 /manuscrito
+/qgis
 /etc
 /test
 /output
 /analysis
 /genbank-submission
 /data/raw/*gz
+RefData.zip
 *DS_Store
 .Rproj.user

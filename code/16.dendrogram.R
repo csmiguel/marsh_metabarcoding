@@ -9,10 +9,15 @@
 #GOAL: beta diversity: dendrogram from wnifrac
 #PROJECT: spartina-metarizo
 ###.............................................................................
-library(tidyverse)
+library(dplyr)
 library(phyloseq)
+library(ggtree)
+library(ggplot2)
 
-ps <- readRDS("data/intermediate/ps_log.rds")
+ps <-
+  readRDS("data/intermediate/ps_t_noRep.rds") %>%
+  # transformation of the abundances to natural logarithmic scale
+  phyloseq::transform_sample_counts(function(x) log(1 + x))
 
 # weighted wunifrac distances
 wuni <- phyloseq::distance(ps, method = "wunifrac")
@@ -27,27 +32,24 @@ meta <-
     select(sample_name, rhizosphere, species, season)
 
 #plot
+#be aware of the following issue: https://github.com/YuLab-SMU/ggtree/issues/399
+# and how to solve it:
+#require(devtools)
+#install_version("ggplot2", version = "0.9.1", repos = "http://cran.us.r-project.org")
 p <-
   ggtree(hc_phylo) %<+% meta +
   geom_tippoint(
-        mapping = aes(x = x + 0.0005, shape = species),
+        mapping = aes(x = x + 0.0005, shape = species, color = season),
         size = 2) +
         geom_tiplab(aes(geom = "sample_name"), offset = 0.001, size = 2) +
-        geom_treescale(label = "weighted unifrac distance")
-
-# data frame for mapping heatmap
-meta2 <- meta[, 4, drop = F]
-
-# add heatmap
-p2 <-
-  gheatmap(p, meta2, offset = 0.003, width = 0.05, hjust = 0) +
-  scale_fill_manual(
-    values = c("darkgreen", "orange", "brown", "darkblue")) +
-  scale_shape_manual(values = c(0, 1, 2, 7, 9))
+        geom_treescale(label = "weighted unifrac distance") +
+        scale_color_manual(
+          values = c("darkgreen", "orange", "brown", "darkblue")) +
+        scale_shape_manual(values = c(0, 1, 2, 7, 9))
 
 #save plot
 ggsave("output/dendrogram_wunifrac.pdf",
-       p2,
+       p,
        width = 9,
        height = 7.7,
        units = "in")

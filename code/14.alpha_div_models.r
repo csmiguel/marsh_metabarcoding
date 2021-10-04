@@ -9,6 +9,7 @@
 #GOAL: model change of alpha diversity across conditions
 #PROJECT: spartina-metarizo
 ###.............................................................................
+# check package modelsummary for alternative reporting of models 
 library(phyloseq)
 library(lme4)
 library(tidyverse)

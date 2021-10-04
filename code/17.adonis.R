@@ -11,22 +11,26 @@
 ###.............................................................................
 library(vegan)
 library(phyloseq)
+library(dplyr)
 
 # variable with permutations
 nperm <- 9999
+set.seed(123)
 
 # read phyloseq
-ps <- readRDS("data/intermediate/ps_log.rds")
+ps <- readRDS("data/intermediate/ps_t_noRep.rds")  %>%
+# transformation of the abundances to natural logarithmic scale
+phyloseq::transform_sample_counts(function(x) log(1 + x))
 
 #data frame with metadata
 metadf <- data.frame(sample_data(ps))
 
 # weighted unifrac distances
 wudist <- phyloseq::UniFrac(ps,
-                  weighted = TRUE,
-                  normalized = TRUE,
-                  parallel = FALSE,
-                  fast = TRUE)
+                    weighted = TRUE,
+                    normalized = TRUE,
+                    parallel = FALSE,
+                    fast = TRUE)
 
 # test 1: effect of species
 t1 <-
@@ -83,3 +87,23 @@ print(t4)
 cat("\n\ntest 5: change with season for every species")
 print(t5)
 sink()
+
+#summary table for adonis results
+table_adonis <-
+  list(t1, t2, t3, t4, t5) %>%
+    lapply(function(x) {
+      x$aov.tab %>%
+        as("data.frame") %>%
+        cbind(formula  = x$call %>%
+                as.character() %>% .[2]) %>%
+        dplyr::select(formula, Df, `F.Model`, R2, `Pr(>F)`) %>%
+        dplyr::mutate(strata = gsub(pattern = "^*\\$",
+        replacement = "", x$call$strata)[3]) %>%
+        .[1, ]
+    }) %>%
+  do.call(what = rbind) %>%
+  dplyr::mutate(`F.Model` = round(`F.Model`, 2),
+         R2 = round(R2, 2),
+         `Pr(>F)` = round(`Pr(>F)`, 2))
+
+write.csv(table_adonis, "output/adonis_summary_table.txt")

@@ -15,22 +15,20 @@ library(ggrepel)
 library(cowplot)
 
 ps <-
-  readRDS("data/intermediate/ps_t.rds") %>%
-  phyloseq::subset_samples(rep < 2)
-
-# transformation of the abundances to natural logarithmic scale
-ps_log <- phyloseq::transform_sample_counts(ps, function(x) log(1 + x))
+  readRDS("data/intermediate/ps_t_noRep.rds") %>%
+  # transformation of the abundances to natural logarithmic scale
+  phyloseq::transform_sample_counts(function(x) log(1 + x))
 
 #create grouping factor to connect rhizosphere/bulk soil samples in plot
-sample_data(ps_log) <-
-  sample_data(ps_log) %>%
+sample_data(ps) <-
+  sample_data(ps) %>%
     as("data.frame") %>%
     dplyr::mutate(groupr = paste0(season, species)) %>%
     sample_data()
 
 # MDS with weighted UNIFRAC distances
 unif_meta <-
-  phyloseq::ordinate(ps_log,
+  phyloseq::ordinate(ps,
     method = "MDS",
     distance = "wunifrac")
 
@@ -40,7 +38,7 @@ evals <- unif_meta$values$Eigenvalues
 #plot MDS
 # PC1 vs PC2
 p1 <-
-  phyloseq::plot_ordination(ps_log,
+  phyloseq::plot_ordination(ps,
                             unif_meta,
                             axes = c(1, 2),
                             shape = "species",
@@ -50,7 +48,7 @@ p1 <-
     geom_point(size = 2) +
     coord_fixed(sqrt(evals[2] / evals[1])) +
     ggrepel::geom_text_repel(
-      aes(label = sample_data(ps_log)$rhizosphere %>% substring(1, 1)),
+      aes(label = sample_data(ps)$rhizosphere %>% substring(1, 1)),
       size = 2,
       min.segment.length = 1,
       point.padding = 0.5) +
@@ -60,7 +58,7 @@ p1 <-
 
 # PC3 vs PC2
 p2 <-
-  phyloseq::plot_ordination(ps_log,
+  phyloseq::plot_ordination(ps,
                             unif_meta,
                             axes = c(3, 2),
                             shape = "species",
@@ -70,7 +68,7 @@ p2 <-
   geom_point(size = 2) +
   coord_fixed(sqrt(evals[2] / evals[3])) +
   ggrepel::geom_text_repel(
-    aes(label = sample_data(ps_log)$rhizosphere %>% substring(1, 1)),
+    aes(label = sample_data(ps)$rhizosphere %>% substring(1, 1)),
     size = 2,
     min.segment.length = 1,
     point.padding = 0.5) +
@@ -106,7 +104,7 @@ pall <-
 # facet plot
 # 1vs2
 p_facet1vs2 <-
-  phyloseq::plot_ordination(ps_log,
+  phyloseq::plot_ordination(ps,
                             unif_meta,
                             axes = c(1, 2),
                             color = "season") +
@@ -117,7 +115,7 @@ p_facet1vs2 <-
   geom_point(size = 2) +
   coord_fixed(sqrt(evals[2] / evals[1])) +
   ggrepel::geom_text_repel(
-    aes(label = sample_data(ps_log)$rhizosphere %>% substring(1, 1)),
+    aes(label = sample_data(ps)$rhizosphere %>% substring(1, 1)),
     size = 3,
     min.segment.length = 1,
     point.padding = 0.5) +
@@ -130,7 +128,7 @@ p_facet1vs2 <-
                                         size = 0.3))
 # 3vs4
 p_facet3vs4 <-
-  phyloseq::plot_ordination(ps_log,
+  phyloseq::plot_ordination(ps,
                             unif_meta,
                             axes = c(3, 4),
                             color = "season") +
@@ -141,7 +139,7 @@ p_facet3vs4 <-
   geom_point(size = 2) +
   coord_fixed(sqrt(evals[4] / evals[3])) +
   ggrepel::geom_text_repel(
-    aes(label = sample_data(ps_log)$rhizosphere %>% substring(1, 1)),
+    aes(label = sample_data(ps)$rhizosphere %>% substring(1, 1)),
     size = 3,
     min.segment.length = 1,
     point.padding = 0.5) +
@@ -173,4 +171,4 @@ ggsave("output/MDS_pfacet3vs4.pdf",
       units = "in")
 
 #save transformed counts for weighted unifrac distace calculations
-saveRDS(ps_log, "data/intermediate/ps_log.rds")
+saveRDS(ps, "data/intermediate/ps.rds")

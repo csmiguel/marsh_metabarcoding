@@ -23,8 +23,7 @@ here::i_am("code/generate_outputs/results_summary.Rmd")
 
 ```{r alpha diversty, echo=T}
 ps <-
-  readRDS(file.path(here(),"data/intermediate/ps_t_noRep.rds")) %>%
-  metagMisc::phyloseq_filter_taxa_rel_abund(0) #rm taxa with 0 abundance
+  readRDS(file.path(here(),"data/intermediate/ps_t_noRep.rds"))
 asv_per_sample <- otu_table(ps) %>% as.data.frame() %>% apply(1, function(x) sum(x > 0))
 ```
 
@@ -38,3 +37,18 @@ rcov <- rank_cov(ps)
 rcov
 ```
 
+##  models alpha diversity
+### effect of season
+
+```{r model_alpha_season}
+
+```
+# variance across seasons
+
+We wanted to check the variance in Shannon diversity across seasons. For that reason I computed Levene`s test for the inequality of variance using nested factors: that is, the four values for each type of soil in each species plot.
+
+```{r levene test}
+load("data/intermediate/levene.Rdata")
+```
+
+Variance of alpha diversity was unequal across seasons depending on the species (F9 = `round(levtest$`F value`[1], 2)`, p = `r round(levtest$`Pr(>F)`[1], 2)`), with a more stable diversity in the plots of Spartina maritima (sdSpartina_maritma = `filter(d1, species == "Spartina_maritima") %>% pull(sd) %>% mean()`; sdother plots = `filter(d1, species != "Spartina_maritima") %>% pull(sd) %>% range()`).

@@ -1,8 +1,8 @@
 species;rhizosphere;season;sample_name;rep
 Salicornia_ramosissima;rhizosphere;spring;S-1;1
 Salicornia_ramosissima;bulk_soil;spring;S-2;1
-Arthrocaulon_macrostachyum;rhizosphere;spring;S-3;1
-Arthrocaulon_macrostachyum;bulk_soil;spring;S-4;1
+Athrocaulon_macrostachyum;rhizosphere;spring;S-3;1
+Athrocaulon_macrostachyum;bulk_soil;spring;S-4;1
 Halimione_portulacoides;rhizosphere;spring;S-5;1
 Halimione_portulacoides;bulk_soil;spring;S-6;1
 Spartina_densiflora;rhizosphere;spring;S-7;1
@@ -15,8 +15,8 @@ Salicornia_ramosissima;rhizosphere;summer;S-13;2
 Salicornia_ramosissima;bulk_soil;summer;S-14;2
 Salicornia_ramosissima;rhizosphere;summer;S-15;3
 Salicornia_ramosissima;bulk_soil;summer;S-16;3
-Arthrocaulon_macrostachyum;rhizosphere;summer;S-17;1
-Arthrocaulon_macrostachyum;bulk_soil;summer;S-18;1
+Athrocaulon_macrostachyum;rhizosphere;summer;S-17;1
+Athrocaulon_macrostachyum;bulk_soil;summer;S-18;1
 Halimione_portulacoides;rhizosphere;summer;S-19;1
 Halimione_portulacoides;bulk_soil;summer;S-20;1
 Spartina_densiflora;rhizosphere;summer;S-21;1
@@ -27,8 +27,8 @@ Spartina_maritima;bulk_soil;autumn;S-25;1
 Spartina_maritima;rhizosphere;autumn;S-26;1
 Halimione_portulacoides;bulk_soil;autumn;S-27;1
 Halimione_portulacoides;rhizosphere;autumn;S-28;1
-Arthrocaulon_macrostachyum;bulk_soil;autumn;S-29;1
-Arthrocaulon_macrostachyum;rhizosphere;autumn;S-30;1
+Athrocaulon_macrostachyum;bulk_soil;autumn;S-29;1
+Athrocaulon_macrostachyum;rhizosphere;autumn;S-30;1
 Spartina_densiflora;bulk_soil;autumn;S-31;1
 Spartina_densiflora;rhizosphere;autumn;S-32;1
 Spartina_maritima;rhizosphere;winter;S-33;1
@@ -36,7 +36,7 @@ Spartina_densiflora;rhizosphere;winter;S-34;1
 Halimione_portulacoides;bulk_soil;winter;S-35;1
 Spartina_maritima;bulk_soil;winter;S-36;1
 Spartina_densiflora;bulk_soil;winter;S-37;1
-Arthrocaulon_macrostachyum;rhizosphere;winter;S-38;1
+Athrocaulon_macrostachyum;rhizosphere;winter;S-38;1
 Halimione_portulacoides;rhizosphere;winter;S-39;1
-Arthrocaulon_macrostachyum;bulk_soil;winter;S-40;1
+Athrocaulon_macrostachyum;bulk_soil;winter;S-40;1
 BPCR;NA;NA;BPCR;NA
