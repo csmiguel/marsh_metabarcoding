@@ -32,7 +32,7 @@ ps <-
 # all crossed factors
 # unique combinations for species
 combination_species <-
-  unique(sample_data(ps)$species) %>%
+  unique(sample_data(ps)$species)[order(c(2, 1, 3, 4, 5))] %>%
     combn(2, simplify = F)
 # tests
 tests_species <-
@@ -60,7 +60,8 @@ ds_rhizosphere_sp <-
          #rm ASVs with 0 abundances
         metagMisc::phyloseq_filter_taxa_rel_abund(0) %>%
         ds_test(tests_rhizosphere)
-    })
+    }) %>% setNames(sp) %>%
+    lapply(function(x) x[[1]])
 
 ## test 4: differentianl abundaces across seasons
 #   unique combinations for species
