@@ -48,7 +48,19 @@ rcov
 We wanted to check the variance in Shannon diversity across seasons. For that reason I computed Levene`s test for the inequality of variance using nested factors: that is, the four values for each type of soil in each species plot.
 
 ```{r levene test}
-load("data/intermediate/levene.Rdata")
+load(file.path(here(),"data/intermediate/levene.Rdata"))
+plev <- levtest$`Pr(>F)`[1]
+flev <- levtest$`F value`[1]
 ```
 
-Variance of alpha diversity was unequal across seasons depending on the species (F9 = `round(levtest$`F value`[1], 2)`, p = `r round(levtest$`Pr(>F)`[1], 2)`), with a more stable diversity in the plots of Spartina maritima (sdSpartina_maritma = `filter(d1, species == "Spartina_maritima") %>% pull(sd) %>% mean()`; sdother plots = `filter(d1, species != "Spartina_maritima") %>% pull(sd) %>% range()`).
+Variance of alpha diversity was unequal across seasons depending on the species (F9 = `r round(flev, 2)`, p = `r round(plev, 2)`), with a more stable diversity in the plots of Spartina maritima (sdSpartina_maritma = `r filter(d1, species == "Spartina_maritima") %>% pull(sd) %>% mean()`; sdother plots = `r filter(d1, species != "Spartina_maritima") %>% pull(sd) %>% range()`).
+
+# Archaea and Bacterial diversity
+```{r}
+ps_t <- transform_sample_counts(ps, function(x) x / sum(x))
+ps_bact <- phyloseq::subset_taxa(ps_t, domain %in% "Bacteria")
+ps_arch <- phyloseq::subset_taxa(ps_t, domain %in% "Archaea")
+ps_domain <- tax_glom(ps_t, "domain")
+```
+
+Of the `r ntaxa(ps)`, `r ntaxa(ps_arch)` ASVs (`r otu_table(ps_domain)[,1] %>% { . * 100} %>% mean() %>% round(2)` % of overall relative abundance) corresponded to Archaea and `r ntaxa(ps_bact)` to Bacteria. All of the Archaea corresponded to halophylic taxa from multiple genera within the Order Halobactorales, Phylum Holobacterota.

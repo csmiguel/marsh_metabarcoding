@@ -63,4 +63,4 @@ d1 <-
                    list(sd = sd, mean = mean)) %>%
     dplyr::mutate(sd = round(sd, 2))
 # save results to file
-save(levtest, d1, "data/intermediate/levene.Rdata")
+save(levtest, d1, file = "data/intermediate/levene.Rdata")

@@ -1,3 +1,4 @@
+/data/raw/Tax4Fun2_ReferenceData_v2
 /data/intermediate
 /data/raw/SILVA_SSU_r138_2019.RData
 /manuscrito
@@ -11,3 +12,6 @@
 RefData.zip
 *DS_Store
 .Rproj.user
+biblio
+
+

@@ -9,11 +9,12 @@
 #GOAL: plot deseq results per factor
 #PROJECT: marsh_metabarcoding
 ###.............................................................................
-
 library(tidyverse)
 library(phyloseq)
 library(pheatmap)
 
+# load plot_deseq function
+source("code/functions/plot_deseq2.r")
 # read tax table
 tax <-
   readRDS("data/intermediate/tax_df.rds") %>%
@@ -32,11 +33,16 @@ tax <-
 ds <- readRDS("data/intermediate/deseq2_results.rds")
 
 # season
-plot_deseq2(ds_result = ds$test4, out_file = "output/deseq2_season.pdf")
+plot_deseq2(ds_result = ds$test4,
+  clustr = 3, clustc = 2,
+  out_file = "output/deseq2_season.pdf")
 
 # species
-plot_deseq2(ds_result = ds$test1, out_file = "output/deseq2_species.pdf")
+plot_deseq2(ds_result = ds$test1,
+    clustr = 5, clustc = 3,
+    out_file = "output/deseq2_species.pdf")
 
 # rhizosphere
 plot_deseq2(ds_result = c(ds$test2, ds$test3),
-            out_file = "output/deseq2_rhizosphere.pdf", use_id = T)
+  clustr = 2, clustc = 2,
+  out_file = "output/deseq2_rhizosphere.pdf", use_id = T)

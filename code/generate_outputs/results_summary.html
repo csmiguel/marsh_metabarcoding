@@ -179,8 +179,7 @@ pre code {
 <div id="alpha-diversity" class="section level2">
 <h2>alpha diversity</h2>
 <pre class="r"><code>ps &lt;-
-  readRDS(file.path(here(),&quot;data/intermediate/ps_t_noRep.rds&quot;)) %&gt;%
-  metagMisc::phyloseq_filter_taxa_rel_abund(0) #rm taxa with 0 abundance
+  readRDS(file.path(here(),&quot;data/intermediate/ps_t_noRep.rds&quot;))
 asv_per_sample &lt;- otu_table(ps) %&gt;% as.data.frame() %&gt;% apply(1, function(x) sum(x &gt; 0))</code></pre>
 <p>A final 4898 ASVs were determined, ranging from 634 to 2625 (sd = 419.1745204).</p>
 </div>
@@ -204,6 +203,28 @@ rcov &lt;- rank_cov(ps)</code></pre>
 <pre class="r"><code>rcov</code></pre>
 <pre><code>## domain phylum  class  order family  genus 
 ##   1.00   1.00   0.96   0.69   0.58   0.38</code></pre>
+</div>
+<div id="models-alpha-diversity" class="section level2">
+<h2>models alpha diversity</h2>
+<div id="effect-of-season" class="section level3">
+<h3>effect of season</h3>
+</div>
+</div>
+<div id="variance-across-seasons" class="section level1">
+<h1>variance across seasons</h1>
+<p>We wanted to check the variance in Shannon diversity across seasons. For that reason I computed Levene`s test for the inequality of variance using nested factors: that is, the four values for each type of soil in each species plot.</p>
+<pre class="r"><code>load(file.path(here(),&quot;data/intermediate/levene.Rdata&quot;))
+plev &lt;- levtest$`Pr(&gt;F)`[1]
+flev &lt;- levtest$`F value`[1]</code></pre>
+<p>Variance of alpha diversity was unequal across seasons depending on the species (F9 = 2.98, p = 0.01), with a more stable diversity in the plots of Spartina maritima (sdSpartina_maritma = 0.11; sdother plots = 0.15, 0.79).</p>
+</div>
+<div id="archaea-and-bacterial-diversity" class="section level1">
+<h1>Archaea and Bacterial diversity</h1>
+<pre class="r"><code>ps_t &lt;- transform_sample_counts(ps, function(x) x / sum(x))
+ps_bact &lt;- phyloseq::subset_taxa(ps_t, domain %in% &quot;Bacteria&quot;)
+ps_arch &lt;- phyloseq::subset_taxa(ps_t, domain %in% &quot;Archaea&quot;)
+ps_domain &lt;- tax_glom(ps_t, &quot;domain&quot;)</code></pre>
+<p>Of the 4898, 26 ASVs (0.12 % of overall relative abundance) corresponded to Archaea and 4872 to Bacteria. All of the Archaea corresponded to halophylic taxa from multiple genera within the Order Halobactorales, Phylum Holobacterota.</p>
 </div>
 
 
