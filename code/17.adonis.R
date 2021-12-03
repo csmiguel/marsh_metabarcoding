@@ -12,6 +12,7 @@
 library(vegan)
 library(phyloseq)
 library(dplyr)
+library(flextable)
 
 # variable with permutations
 nperm <- 9999
@@ -105,5 +106,8 @@ table_adonis <-
   dplyr::mutate(`F.Model` = round(`F.Model`, 2),
          R2 = round(R2, 2),
          `Pr(>F)` = round(`Pr(>F)`, 2))
+
+flextable::flextable(table_adonis) %>%
+  flextable::save_as_docx(path = "output/summary_table_adonis.docx")
 
 write.csv(table_adonis, "output/adonis_summary_table.txt")

@@ -64,3 +64,15 @@ ps_domain <- tax_glom(ps_t, "domain")
 ```
 
 Of the `r ntaxa(ps)`, `r ntaxa(ps_arch)` ASVs (`r otu_table(ps_domain)[,1] %>% { . * 100} %>% mean() %>% round(2)` % of overall relative abundance) corresponded to Archaea and `r ntaxa(ps_bact)` to Bacteria. All of the Archaea corresponded to halophylic taxa from multiple genera within the Order Halobactorales, Phylum Holobacterota.
+
+# Deseq results
+```{r}
+ds <- readRDS(file.path(here(),"data/intermediate/deseq_results_merged.rds"))
+ds %>%
+  dplyr::filter(padj < .05) %>%
+    group_by(test, contrast) %>%
+    summarise(number = n())
+```
+
+ Data was aggreagated into `r length(unique(ds$family))` families.
+ 
