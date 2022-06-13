@@ -1,0 +1,10 @@
+to do:
+- change names plant species in figures and tables, supplementary
+- rerun analysis, check code
+- upload ASVs to genbank
+- analisis on salinity and pH
+- create zenodo repository
+- discussion
+- figure alpha diversity. Modificar nombres especies y quitar rhizosphere de la leyenda.
+- change species name halophyte in BioSamples
+-groups (strata) within which to constrain permutations. 

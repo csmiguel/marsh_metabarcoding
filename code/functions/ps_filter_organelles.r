@@ -9,11 +9,11 @@ ps_filter_organelles <- function(ps = NULL) {
   sum(
     grepl(
       x = tax_table(h),
-      pattern = "[Cc]hloroplast|[Mm]itochondria|[Ee]ukaryta")
+      pattern = "[Cc]hloroplast|[Mm]itochondria|[Ee]ukary")
     ) == 0,
   msg = "Not all organelle DNA has been filtered.")
   cat("\nAny taxonomic rank matching of",
-      "[Cc]hloroplast|[Mm]itochondria|[Ee]ukaryta has been removed\n")
+      "[Cc]hloroplast|[Mm]itochondria|[Ee]ukary has been removed\n")
   no_reads <- mean(rowSums(otu_table(h)) / rowSums(otu_table(ps)))
   no_taxa <- ntaxa(h) / ntaxa(ps)
   #report some results from the filtering
