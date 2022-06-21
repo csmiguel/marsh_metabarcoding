@@ -15,7 +15,7 @@ library(phyloseq)
 library(tidyverse)
 
 
-nperm <- 2 # number of permutations
+nperm <- 999 # number of permutations
 
 source("code/functions/ps_filter_prevalence.r") # function to filter phyloseq
 source("code/functions/bmntd.r") # function to filter phyloseq
@@ -31,7 +31,7 @@ bmntd_obs <- # observed B mean nearest taxon distance
                    abundance.weighted = T,
                    exclude.conspecifics = T)
 bmntd_obs <- # distance object to data frame
-  melt(as.matrix(bmntd_obs), varnames = c("sample1", "sample2"))
+  melt(as.matrix(bmntd_obs), varnames = c("sample1", "sample2"), value.name = "observed")
 ### 1 ### phylogenetic filtering in rhizosphere
 # generate data frame with contrasts to test; one per row
 #  this set of contrast will test phylogenetic turnover between bulk-> rhizospheric soil
@@ -55,7 +55,7 @@ rhiz_perm <-
     phydistperm <-
       permutate_bmntd(physeq = ps1, nperm = nperm)
     phydistperm %>%
-      mutate(contrast = paste(sp, sea, sep = "_"))
+      mutate(contrast = paste(sp, sea, "bulk2rhizo", sep = "_"))
   })
 # df with summary statistics
 rhiz_perm_summ <-
@@ -115,8 +115,13 @@ season_perm_summ <-
   }) %>%
   do.call(what = "rbind")
 
-# merge tables
-rbind(rhiz_perm_summ, season_perm_summ) %>%
-  left_join(x = bmntd_obs,
+# merge tables and compute bnti
+bnti <-
+  rbind(rhiz_perm_summ, season_perm_summ) %>%
+  left_join(bmntd_obs,
             by = c("sample1", "sample2")) %>%
-  filter(!is.na(sdev))
+  mutate(bnti = (observed - av) / sdev)
+
+# save objects
+saveRDS(bnti, file = "data/intermediate/bnti.rds")
+save(season_perm, rhiz_perm, file = "data/intermediate/bmntd.Rdata")
