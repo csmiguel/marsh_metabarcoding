@@ -1,0 +1,2010 @@
+# Report for collapsed table: output/functional_table.tsv
+# Collapsed table generated on: 2022.06.20 13:10:28
+# Original table: data/intermediate/faprotax.tsv
+# Details:
+#  Original classical table contained 4898 rows and 37 columns
+#  After filtering rows & columns, obtained a table containing 4898 rows & 36 columns
+#  After (potentially) filtering out records based on name, obtained a table comprising 4898 records & 36 data entries per record
+# Used command:
+#   code/collapse_table.py -i data/intermediate/faprotax.tsv -o output/functional_table.tsv -g data/raw/FAPROTAX.txt -c '#' -d taxonomy --column_names_are_in first_data_line -r data/intermediate/report.txt -n columns_after_collapsing -v
+#
+# Summary of group assignments:
+#   methanotrophy: 0 records
+#   acetoclastic_methanogenesis: 0 records
+#   methanogenesis_by_disproportionation_of_methyl_groups: 0 records
+#   methanogenesis_using_formate: 0 records
+#   methanogenesis_by_CO2_reduction_with_H2: 0 records
+#   methanogenesis_by_reduction_of_methyl_compounds_with_H2: 0 records
+#   hydrogenotrophic_methanogenesis: 0 records
+#   methanogenesis: 0 records
+#   methanol_oxidation: 1 records
+#   methylotrophy: 1 records
+#   aerobic_ammonia_oxidation: 0 records
+#   aerobic_nitrite_oxidation: 0 records
+#   nitrification: 0 records
+#   sulfate_respiration: 13 records
+#   sulfur_respiration: 3 records
+#   dark_sulfite_oxidation: 0 records
+#   sulfite_respiration: 5 records
+#   thiosulfate_respiration: 10 records
+#   respiration_of_sulfur_compounds: 26 records
+#   arsenate_detoxification: 0 records
+#   arsenate_respiration: 0 records
+#   dissimilatory_arsenate_reduction: 0 records
+#   arsenite_oxidation_detoxification: 0 records
+#   arsenite_oxidation_energy_yielding: 0 records
+#   dissimilatory_arsenite_oxidation: 0 records
+#   anammox: 0 records
+#   nitrate_denitrification: 1 records
+#   nitrite_denitrification: 1 records
+#   nitrous_oxide_denitrification: 1 records
+#   denitrification: 1 records
+#   chitinolysis: 10 records
+#   knallgas_bacteria: 0 records
+#   dark_hydrogen_oxidation: 2 records
+#   nitrogen_fixation: 2 records
+#   nitrate_ammonification: 0 records
+#   nitrite_ammonification: 0 records
+#   nitrite_respiration: 1 records
+#   cellulolysis: 27 records
+#   xylanolysis: 10 records
+#   dark_sulfide_oxidation: 3 records
+#   dark_sulfur_oxidation: 2 records
+#   dark_thiosulfate_oxidation: 2 records
+#   dark_oxidation_of_sulfur_compounds: 4 records
+#   manganese_oxidation: 2 records
+#   manganese_respiration: 0 records
+#   ligninolysis: 0 records
+#   fermentation: 91 records
+#   aerobic_chemoheterotrophy: 457 records
+#   invertebrate_parasites: 0 records
+#   human_pathogens_septicemia: 0 records
+#   human_pathogens_pneumonia: 0 records
+#   human_pathogens_nosocomia: 0 records
+#   human_pathogens_meningitis: 0 records
+#   human_pathogens_gastroenteritis: 0 records
+#   human_pathogens_diarrhea: 0 records
+#   human_pathogens_all: 1 records
+#   fish_parasites: 0 records
+#   human_gut: 0 records
+#   human_associated: 1 records
+#   mammal_gut: 0 records
+#   animal_parasites_or_symbionts: 1 records
+#   plant_pathogen: 0 records
+#   oil_bioremediation: 0 records
+#   aromatic_hydrocarbon_degradation: 0 records
+#   aromatic_compound_degradation: 14 records
+#   aliphatic_non_methane_hydrocarbon_degradation: 0 records
+#   hydrocarbon_degradation: 50 records
+#   dark_iron_oxidation: 0 records
+#   iron_respiration: 3 records
+#   nitrate_respiration: 6 records
+#   nitrate_reduction: 33 records
+#   nitrogen_respiration: 6 records
+#   fumarate_respiration: 0 records
+#   intracellular_parasites: 5 records
+#   chlorate_reducers: 0 records
+#   predatory_or_exoparasitic: 5 records
+#   chloroplasts: 0 records
+#   nonphotosynthetic_cyanobacteria: 0 records
+#   photosynthetic_cyanobacteria: 40 records
+#   anoxygenic_photoautotrophy_H2_oxidizing: 0 records
+#   anoxygenic_photoautotrophy_S_oxidizing: 32 records
+#   anoxygenic_photoautotrophy_Fe_oxidizing: 0 records
+#   anoxygenic_photoautotrophy: 33 records
+#   oxygenic_photoautotrophy: 40 records
+#   photoautotrophy: 73 records
+#   aerobic_anoxygenic_phototrophy: 0 records
+#   photoheterotrophy: 12 records
+#   phototrophy: 84 records
+#   plastic_degradation: 0 records
+#   ureolysis: 3 records
+#   reductive_acetogenesis: 0 records
+#   chemoheterotrophy: 505 records
+#
+# Loaded 92 groups comprising 8311 members (5044 unique members)
+# Established 1623 assignments of records to groups
+# 616 out of 4898 records (12.5766 %) were assigned to at least one group
+# 4282 out of 4898 records (87.4234 %) could not be assigned to any group (leftovers)
+# 44 groups were represented (i.e. associated with at least one record)
+# Detailed group assignments are listed below
+
+# methanotrophy (0 records):
+
+
+# acetoclastic_methanogenesis (0 records):
+
+
+# methanogenesis_by_disproportionation_of_methyl_groups (0 records):
+
+
+# methanogenesis_using_formate (0 records):
+
+
+# methanogenesis_by_CO2_reduction_with_H2 (0 records):
+
+
+# methanogenesis_by_reduction_of_methyl_compounds_with_H2 (0 records):
+
+
+# hydrogenotrophic_methanogenesis (0 records):
+
+
+# methanogenesis (0 records):
+
+
+# methanol_oxidation (1 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+
+
+# methylotrophy (1 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+
+
+# aerobic_ammonia_oxidation (0 records):
+
+
+# aerobic_nitrite_oxidation (0 records):
+
+
+# nitrification (0 records):
+
+
+# sulfate_respiration (13 records):
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfovibrionia; Desulfovibrionales; Desulfohalobiaceae; Desulfovermiculus
+    Desulfobacterota; Desulfovibrionia; Desulfovibrionales; Desulfohalobiaceae; Desulfovermiculus
+    Desulfobacterota; Desulfovibrionia; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio
+
+
+# sulfur_respiration (3 records):
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+
+
+# dark_sulfite_oxidation (0 records):
+
+
+# sulfite_respiration (5 records):
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+
+
+# thiosulfate_respiration (10 records):
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+
+
+# respiration_of_sulfur_compounds (26 records):
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfovibrionia; Desulfovibrionales; Desulfohalobiaceae; Desulfovermiculus
+    Desulfobacterota; Desulfovibrionia; Desulfovibrionales; Desulfohalobiaceae; Desulfovermiculus
+    Desulfobacterota; Desulfovibrionia; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+    Firmicutes; Clostridia; Peptostreptococcales-Tissierellales; Fusibacteraceae; Fusibacter
+
+
+# arsenate_detoxification (0 records):
+
+
+# arsenate_respiration (0 records):
+
+
+# dissimilatory_arsenate_reduction (0 records):
+
+
+# arsenite_oxidation_detoxification (0 records):
+
+
+# arsenite_oxidation_energy_yielding (0 records):
+
+
+# dissimilatory_arsenite_oxidation (0 records):
+
+
+# anammox (0 records):
+
+
+# nitrate_denitrification (1 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+
+
+# nitrite_denitrification (1 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+
+
+# nitrous_oxide_denitrification (1 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+
+
+# denitrification (1 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+
+
+# chitinolysis (10 records):
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+
+
+# knallgas_bacteria (0 records):
+
+
+# dark_hydrogen_oxidation (2 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+    Proteobacteria; Gammaproteobacteria; Burkholderiales; Comamonadaceae; Hydrogenophaga
+
+
+# nitrogen_fixation (2 records):
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Magnetospiraceae; Magnetospira
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter
+
+
+# nitrate_ammonification (0 records):
+
+
+# nitrite_ammonification (0 records):
+
+
+# nitrite_respiration (1 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+
+
+# cellulolysis (27 records):
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+
+
+# xylanolysis (10 records):
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+
+
+# dark_sulfide_oxidation (3 records):
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Magnetospiraceae; Magnetovibrio
+    Proteobacteria; Gammaproteobacteria; Thiomicrospirales; Thiomicrospiraceae; Thiomicrospira
+    Proteobacteria; Gammaproteobacteria; Thiomicrospirales; Thiomicrospiraceae; Thiomicrospira
+
+
+# dark_sulfur_oxidation (2 records):
+    Proteobacteria; Gammaproteobacteria; Thiomicrospirales; Thiomicrospiraceae; Thiomicrospira
+    Proteobacteria; Gammaproteobacteria; Thiomicrospirales; Thiomicrospiraceae; Thiomicrospira
+
+
+# dark_thiosulfate_oxidation (2 records):
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Magnetospiraceae; Magnetospira
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Magnetospiraceae; Magnetovibrio
+
+
+# dark_oxidation_of_sulfur_compounds (4 records):
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Magnetospiraceae; Magnetospira
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Magnetospiraceae; Magnetovibrio
+    Proteobacteria; Gammaproteobacteria; Thiomicrospirales; Thiomicrospiraceae; Thiomicrospira
+    Proteobacteria; Gammaproteobacteria; Thiomicrospirales; Thiomicrospiraceae; Thiomicrospira
+
+
+# manganese_oxidation (2 records):
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Geodermatophilus
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Geodermatophilus
+
+
+# manganese_respiration (0 records):
+
+
+# ligninolysis (0 records):
+
+
+# fermentation (91 records):
+    Bacteroidota; Bacteroidia; Cytophagales; Cyclobacteriaceae; Echinicola
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Muricauda
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Muricauda
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Muricauda
+    Chloroflexi; Anaerolineae; Anaerolineales; Anaerolineaceae; Thermomarinilinea
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus
+    Firmicutes; Bacilli; Lactobacillales; Streptococcaceae; Streptococcus
+    Fusobacteriota; Fusobacteriia; Fusobacteriales; Fusobacteriaceae; Propionigenium
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halanaerobiaceae; Halanaerobium
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halanaerobiaceae; Halanaerobium
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Proteobacteria; Alphaproteobacteria; Azospirillales; Azospirillaceae; Skermanella
+    Proteobacteria; Alphaproteobacteria; Azospirillales; Azospirillaceae; Skermanella
+    Proteobacteria; Alphaproteobacteria; Azospirillales; Azospirillaceae; Skermanella
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodovulum
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Aliivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Catenococcus
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Verrucomicrobiales; Verrucomicrobiaceae; Verrucomicrobium
+
+
+# aerobic_chemoheterotrophy (457 records):
+    Acidobacteriota; Holophagae; Acanthopleuribacterales; Acanthopleuribacteraceae; Acanthopleuribacter
+    Acidobacteriota; Holophagae; Acanthopleuribacterales; Acanthopleuribacteraceae; Acanthopleuribacter
+    Acidobacteriota; Holophagae; Acanthopleuribacterales; Acanthopleuribacteraceae; Acanthopleuribacter
+    Acidobacteriota; Holophagae; Acanthopleuribacterales; Acanthopleuribacteraceae; Acanthopleuribacter
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Blastococcus
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Blastococcus
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Blastococcus
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Blastococcus
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Modestobacter
+    Actinobacteriota; Actinobacteria; Micrococcales; Microbacteriaceae; Agromyces
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Crossiella
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Crossiella
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Pseudonocardia
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Pseudonocardia
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Pseudonocardia
+    Actinobacteriota; Actinobacteria; Streptomycetales; Streptomycetaceae; Streptomyces
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Portibacter
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Portibacter
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Portibacter
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Portibacter
+    Bacteroidota; Bacteroidia; Cytophagales; Cyclobacteriaceae; Algoriphagus
+    Bacteroidota; Bacteroidia; Cytophagales; Cyclobacteriaceae; Algoriphagus
+    Bacteroidota; Bacteroidia; Cytophagales; Flammeovirgaceae; Luteivirga
+    Bacteroidota; Bacteroidia; Cytophagales; Flammeovirgaceae; Luteivirga
+    Bacteroidota; Bacteroidia; Cytophagales; Flammeovirgaceae; Luteivirga
+    Bacteroidota; Bacteroidia; Flavobacteriales; Crocinitomicaceae; Crocinitomix
+    Bacteroidota; Bacteroidia; Flavobacteriales; Crocinitomicaceae; Crocinitomix
+    Bacteroidota; Bacteroidia; Flavobacteriales; Cryomorphaceae; Owenweeksia
+    Bacteroidota; Bacteroidia; Flavobacteriales; Cryomorphaceae; Owenweeksia
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Actibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Actibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Actibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Aquimarina
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Flavobacterium
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Flavobacterium
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Leeuwenhoekiella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Lutibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Lutibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Maribacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Maribacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Mesonia
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Muricauda
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Muricauda
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Muricauda
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Robiginitalea
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Robiginitalea
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Robiginitalea
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Salegentibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Salegentibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Tenacibaculum
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Tenacibaculum
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Tenacibaculum
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Tenacibaculum
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Ulvibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Ulvibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Ulvibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Ulvibacter
+    Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus
+    Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Proteobacteria; Alphaproteobacteria; Acetobacterales; Acetobacteraceae; Roseomonas
+    Proteobacteria; Alphaproteobacteria; Azospirillales; Azospirillaceae; Skermanella
+    Proteobacteria; Alphaproteobacteria; Azospirillales; Azospirillaceae; Skermanella
+    Proteobacteria; Alphaproteobacteria; Azospirillales; Azospirillaceae; Skermanella
+    Proteobacteria; Alphaproteobacteria; Caulobacterales; Caulobacteraceae; Caulobacter
+    Proteobacteria; Alphaproteobacteria; Caulobacterales; Hyphomonadaceae; Hyphomonas
+    Proteobacteria; Alphaproteobacteria; Caulobacterales; Hyphomonadaceae; Hyphomonas
+    Proteobacteria; Alphaproteobacteria; Caulobacterales; Hyphomonadaceae; Hyphomonas
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Microvirga
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Microvirga
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Microvirga
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Microvirga
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Cucumibacter
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Filomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Filomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Filomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Filomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Hyphomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiales Incertae Sedis; Dichotomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Jannaschia
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Jannaschia
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Jannaschia
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Marivita
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodovulum
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter clade Marinomonas lineage
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter clade NAC11-7 lineage
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Thalassospiraceae; Thalassospira
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Thalassospiraceae; Thalassospira
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Thalassospiraceae; Thalassospira
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Croceicoccus
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Ellin6055
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Porphyrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Aestuariibacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Agaribacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Bowmanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Catenovulum
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Lacimicrobium
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Rheinheimera
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Rheinheimera
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Psychromonadaceae; Psychromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Burkholderiales; Comamonadaceae; Hydrogenophaga
+    Proteobacteria; Gammaproteobacteria; Gammaproteobacteria Incertae Sedis; Unknown Family_4; Marinicella
+    Proteobacteria; Gammaproteobacteria; Gammaproteobacteria Incertae Sedis; Unknown Family_4; Marinicella
+    Proteobacteria; Gammaproteobacteria; Gammaproteobacteria Incertae Sedis; Unknown Family_4; Marinicella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Chromohalobacter
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Kangiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Pleionea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Pleionea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Pleionea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Oceanospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Oceanospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Bermanella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Reinekea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Reinekea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Aliivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Catenococcus
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Arenimonas
+    Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Arenimonas
+    Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Arenimonas
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Puniceicoccaceae; Coraliomargarita
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Puniceicoccaceae; Pelagicoccus
+    Verrucomicrobiota; Verrucomicrobiae; Verrucomicrobiales; Verrucomicrobiaceae; Verrucomicrobium
+
+
+# invertebrate_parasites (0 records):
+
+
+# human_pathogens_septicemia (0 records):
+
+
+# human_pathogens_pneumonia (0 records):
+
+
+# human_pathogens_nosocomia (0 records):
+
+
+# human_pathogens_meningitis (0 records):
+
+
+# human_pathogens_gastroenteritis (0 records):
+
+
+# human_pathogens_diarrhea (0 records):
+
+
+# human_pathogens_all (1 records):
+    Proteobacteria; Alphaproteobacteria; Acetobacterales; Acetobacteraceae; Roseomonas
+
+
+# fish_parasites (0 records):
+
+
+# human_gut (0 records):
+
+
+# human_associated (1 records):
+    Proteobacteria; Alphaproteobacteria; Acetobacterales; Acetobacteraceae; Roseomonas
+
+
+# mammal_gut (0 records):
+
+
+# animal_parasites_or_symbionts (1 records):
+    Proteobacteria; Alphaproteobacteria; Acetobacterales; Acetobacteraceae; Roseomonas
+
+
+# plant_pathogen (0 records):
+
+
+# oil_bioremediation (0 records):
+
+
+# aromatic_hydrocarbon_degradation (0 records):
+
+
+# aromatic_compound_degradation (14 records):
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+
+
+# aliphatic_non_methane_hydrocarbon_degradation (0 records):
+
+
+# hydrocarbon_degradation (50 records):
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+
+
+# dark_iron_oxidation (0 records):
+
+
+# iron_respiration (3 records):
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+
+
+# nitrate_respiration (6 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Burkholderiales; Comamonadaceae; Aquabacterium
+
+
+# nitrate_reduction (33 records):
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Firmicutes; Bacilli; Bacillales; Bacillaceae; Thalassobacillus
+    Firmicutes; Bacilli; Bacillales; Bacillaceae; Thalassobacillus
+    Firmicutes; Bacilli; Bacillales; Bacillaceae; Thalassobacillus
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Burkholderiales; Comamonadaceae; Aquabacterium
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Catenococcus
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+
+
+# nitrogen_respiration (6 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Burkholderiales; Comamonadaceae; Aquabacterium
+
+
+# fumarate_respiration (0 records):
+
+
+# intracellular_parasites (5 records):
+    Proteobacteria; Alphaproteobacteria; Rickettsiales; SM2D12
+    Verrucomicrobiota; Chlamydiae; Chlamydiales
+    Verrucomicrobiota; Chlamydiae; Chlamydiales; cvE6
+    Verrucomicrobiota; Chlamydiae; Chlamydiales; cvE6
+    Verrucomicrobiota; Chlamydiae; Chlamydiales; Simkaniaceae; Candidatus Fritschea
+
+
+# chlorate_reducers (0 records):
+
+
+# predatory_or_exoparasitic (5 records):
+    Bdellovibrionota; Bdellovibrionia; Bdellovibrionales; Bdellovibrionaceae; Bdellovibrio
+    Bdellovibrionota; Bdellovibrionia; Bdellovibrionales; Bdellovibrionaceae; OM27 clade
+    Bdellovibrionota; Bdellovibrionia; Bdellovibrionales; Bdellovibrionaceae; OM27 clade
+    Myxococcota; Polyangia; Haliangiales; Haliangiaceae; Haliangium
+    Myxococcota; Polyangia; Haliangiales; Haliangiaceae; Haliangium
+
+
+# chloroplasts (0 records):
+
+
+# nonphotosynthetic_cyanobacteria (0 records):
+
+
+# photosynthetic_cyanobacteria (40 records):
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Caldora VP642b
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Coleofasciculus PCC-7420
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Symploca PCC-8002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Symploca PCC-8002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Cyanobacteriaceae; Symphothece PCC-7002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Cyanobacteriaceae; Symphothece PCC-7002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae; Synechocystis BDHKU-20401
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae; Synechocystis BDHKU-20401
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Oscillatoriaceae; Oscillatoria PCC-6304
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Oscillatoriaceae; Planktothricoides SR001
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Paraspirulinaceae; ESFC-1
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Arthrospira PCC-7345
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Arthrospira PCC-7345
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Lyngbya PCC-7419
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Rubidibacteraceae; Dactylococcopsis PCC-8305
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Rubidibacteraceae; Dactylococcopsis PCC-8305
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Foliisarcina
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Phormidesmiales; Phormidesmiaceae; Phormidesmis ANT.LACV5.1
+    Cyanobacteria; Cyanobacteriia; Phormidesmiales; Phormidesmiaceae; Phormidium MBIC10003
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+
+
+# anoxygenic_photoautotrophy_H2_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy_S_oxidizing (32 records):
+    Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Halochromatium
+    Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Halochromatium
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+
+
+# anoxygenic_photoautotrophy_Fe_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy (33 records):
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodovulum
+    Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Halochromatium
+    Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Halochromatium
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+
+
+# oxygenic_photoautotrophy (40 records):
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Caldora VP642b
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Coleofasciculus PCC-7420
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Symploca PCC-8002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Symploca PCC-8002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Cyanobacteriaceae; Symphothece PCC-7002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Cyanobacteriaceae; Symphothece PCC-7002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae; Synechocystis BDHKU-20401
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae; Synechocystis BDHKU-20401
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Oscillatoriaceae; Oscillatoria PCC-6304
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Oscillatoriaceae; Planktothricoides SR001
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Paraspirulinaceae; ESFC-1
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Arthrospira PCC-7345
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Arthrospira PCC-7345
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Lyngbya PCC-7419
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Rubidibacteraceae; Dactylococcopsis PCC-8305
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Rubidibacteraceae; Dactylococcopsis PCC-8305
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Foliisarcina
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Phormidesmiales; Phormidesmiaceae; Phormidesmis ANT.LACV5.1
+    Cyanobacteria; Cyanobacteriia; Phormidesmiales; Phormidesmiaceae; Phormidium MBIC10003
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+
+
+# photoautotrophy (73 records):
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Caldora VP642b
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Coleofasciculus PCC-7420
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Symploca PCC-8002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Symploca PCC-8002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Cyanobacteriaceae; Symphothece PCC-7002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Cyanobacteriaceae; Symphothece PCC-7002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae; Synechocystis BDHKU-20401
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae; Synechocystis BDHKU-20401
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Oscillatoriaceae; Oscillatoria PCC-6304
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Oscillatoriaceae; Planktothricoides SR001
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Paraspirulinaceae; ESFC-1
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Arthrospira PCC-7345
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Arthrospira PCC-7345
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Lyngbya PCC-7419
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Rubidibacteraceae; Dactylococcopsis PCC-8305
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Rubidibacteraceae; Dactylococcopsis PCC-8305
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Foliisarcina
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Phormidesmiales; Phormidesmiaceae; Phormidesmis ANT.LACV5.1
+    Cyanobacteria; Cyanobacteriia; Phormidesmiales; Phormidesmiaceae; Phormidium MBIC10003
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodovulum
+    Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Halochromatium
+    Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Halochromatium
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+
+
+# aerobic_anoxygenic_phototrophy (0 records):
+
+
+# photoheterotrophy (12 records):
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodovulum
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Porphyrobacter
+
+
+# phototrophy (84 records):
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Caldora VP642b
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Coleofasciculus PCC-7420
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Symploca PCC-8002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Coleofasciculaceae; Symploca PCC-8002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Cyanobacteriaceae; Symphothece PCC-7002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Cyanobacteriaceae; Symphothece PCC-7002
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae; Synechocystis BDHKU-20401
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Microcystaceae; Synechocystis BDHKU-20401
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Oscillatoriaceae; Oscillatoria PCC-6304
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Oscillatoriaceae; Planktothricoides SR001
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Paraspirulinaceae; ESFC-1
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Arthrospira PCC-7345
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Arthrospira PCC-7345
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Lyngbya PCC-7419
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Rubidibacteraceae; Dactylococcopsis PCC-8305
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Rubidibacteraceae; Dactylococcopsis PCC-8305
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Foliisarcina
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Cyanobacteriales; Xenococcaceae; Pleurocapsa PCC-7319
+    Cyanobacteria; Cyanobacteriia; Phormidesmiales; Phormidesmiaceae; Phormidesmis ANT.LACV5.1
+    Cyanobacteria; Cyanobacteriia; Phormidesmiales; Phormidesmiaceae; Phormidium MBIC10003
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Cyanobacteria; Cyanobacteriia; Thermosynechococcales; Thermosynechococcaceae; Synechococcus IR11
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodomicrobiaceae; Rhodomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodovulum
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Porphyrobacter
+    Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Halochromatium
+    Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Halochromatium
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Halofilum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+    Proteobacteria; Gammaproteobacteria; Ectothiorhodospirales; Ectothiorhodospiraceae; Thiogranum
+
+
+# plastic_degradation (0 records):
+
+
+# ureolysis (3 records):
+    Proteobacteria; Alphaproteobacteria; Acetobacterales; Acetobacteraceae; Roseomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter
+    Verrucomicrobiota; Verrucomicrobiae; Verrucomicrobiales; Verrucomicrobiaceae; Verrucomicrobium
+
+
+# reductive_acetogenesis (0 records):
+
+
+# chemoheterotrophy (505 records):
+    Acidobacteriota; Holophagae; Acanthopleuribacterales; Acanthopleuribacteraceae; Acanthopleuribacter
+    Acidobacteriota; Holophagae; Acanthopleuribacterales; Acanthopleuribacteraceae; Acanthopleuribacter
+    Acidobacteriota; Holophagae; Acanthopleuribacterales; Acanthopleuribacteraceae; Acanthopleuribacter
+    Acidobacteriota; Holophagae; Acanthopleuribacterales; Acanthopleuribacteraceae; Acanthopleuribacter
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Blastococcus
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Blastococcus
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Blastococcus
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Blastococcus
+    Actinobacteriota; Actinobacteria; Frankiales; Geodermatophilaceae; Modestobacter
+    Actinobacteriota; Actinobacteria; Micrococcales; Microbacteriaceae; Agromyces
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Crossiella
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Crossiella
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Pseudonocardia
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Pseudonocardia
+    Actinobacteriota; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Pseudonocardia
+    Actinobacteriota; Actinobacteria; Streptomycetales; Streptomycetaceae; Streptomyces
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Rubrobacteria; Rubrobacterales; Rubrobacteriaceae; Rubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Actinobacteriota; Thermoleophilia; Solirubrobacterales; Solirubrobacteraceae; Solirubrobacter
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Lewinella
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Portibacter
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Portibacter
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Portibacter
+    Bacteroidota; Bacteroidia; Chitinophagales; Saprospiraceae; Portibacter
+    Bacteroidota; Bacteroidia; Cytophagales; Cyclobacteriaceae; Algoriphagus
+    Bacteroidota; Bacteroidia; Cytophagales; Cyclobacteriaceae; Algoriphagus
+    Bacteroidota; Bacteroidia; Cytophagales; Cyclobacteriaceae; Echinicola
+    Bacteroidota; Bacteroidia; Cytophagales; Flammeovirgaceae; Luteivirga
+    Bacteroidota; Bacteroidia; Cytophagales; Flammeovirgaceae; Luteivirga
+    Bacteroidota; Bacteroidia; Cytophagales; Flammeovirgaceae; Luteivirga
+    Bacteroidota; Bacteroidia; Flavobacteriales; Crocinitomicaceae; Crocinitomix
+    Bacteroidota; Bacteroidia; Flavobacteriales; Crocinitomicaceae; Crocinitomix
+    Bacteroidota; Bacteroidia; Flavobacteriales; Cryomorphaceae; Owenweeksia
+    Bacteroidota; Bacteroidia; Flavobacteriales; Cryomorphaceae; Owenweeksia
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Actibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Actibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Actibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Aquimarina
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Flavobacterium
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Flavobacterium
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Gramella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Leeuwenhoekiella
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Lutibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Lutibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Maribacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Maribacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Mesonia
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Muricauda
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Muricauda
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Muricauda
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Robiginitalea
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Robiginitalea
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Robiginitalea
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Salegentibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Salegentibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Tenacibaculum
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Tenacibaculum
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Tenacibaculum
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Tenacibaculum
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Ulvibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Ulvibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Ulvibacter
+    Bacteroidota; Bacteroidia; Flavobacteriales; Flavobacteriaceae; Ulvibacter
+    Chloroflexi; Anaerolineae; Anaerolineales; Anaerolineaceae; Thermomarinilinea
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobacteria; Desulfobacterales; Desulfobacteraceae; Desulfotignum
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfobulbia; Desulfobulbales; Desulfobulbaceae; Desulfobulbus
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Desulfobacterota; Desulfuromonadia; Desulfuromonadaceae; Desulfuromonas
+    Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus
+    Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus
+    Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus
+    Firmicutes; Bacilli; Lactobacillales; Streptococcaceae; Streptococcus
+    Fusobacteriota; Fusobacteriia; Fusobacteriales; Fusobacteriaceae; Propionigenium
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halanaerobiaceae; Halanaerobium
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halanaerobiaceae; Halanaerobium
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Halanaerobiaeota; Halanaerobiia; Halanaerobiales; Halobacteroidaceae; Orenia
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Blastopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Planctomycetota; Planctomycetes; Pirellulales; Pirellulaceae; Rhodopirellula
+    Proteobacteria; Alphaproteobacteria; Acetobacterales; Acetobacteraceae; Roseomonas
+    Proteobacteria; Alphaproteobacteria; Azospirillales; Azospirillaceae; Skermanella
+    Proteobacteria; Alphaproteobacteria; Azospirillales; Azospirillaceae; Skermanella
+    Proteobacteria; Alphaproteobacteria; Azospirillales; Azospirillaceae; Skermanella
+    Proteobacteria; Alphaproteobacteria; Caulobacterales; Caulobacteraceae; Caulobacter
+    Proteobacteria; Alphaproteobacteria; Caulobacterales; Hyphomonadaceae; Hyphomonas
+    Proteobacteria; Alphaproteobacteria; Caulobacterales; Hyphomonadaceae; Hyphomonas
+    Proteobacteria; Alphaproteobacteria; Caulobacterales; Hyphomonadaceae; Hyphomonas
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Kiloniellales; Fodinicurvataceae; Rhodovibrio
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Microvirga
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Microvirga
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Microvirga
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Microvirga
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Cucumibacter
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Devosiaceae; Devosia
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Filomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Filomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Filomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Filomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Hyphomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Pedomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiales Incertae Sedis; Dichotomicrobium
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Jannaschia
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Jannaschia
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Jannaschia
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Marivita
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodovulum
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseivivax
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter clade Marinomonas lineage
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter clade NAC11-7 lineage
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius
+    Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Thalassospiraceae; Thalassospira
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Thalassospiraceae; Thalassospira
+    Proteobacteria; Alphaproteobacteria; Rhodospirillales; Thalassospiraceae; Thalassospira
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Altererythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Croceicoccus
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Ellin6055
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Erythrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Porphyrobacter
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomicrobium
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas
+    Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Aestuariibacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Agaribacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Bowmanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Catenovulum
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Lacimicrobium
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Rheinheimera
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Rheinheimera
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Thalassotalea
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Marinobacteraceae; Marinobacter
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Psychromonadaceae; Psychromonas
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+    Proteobacteria; Gammaproteobacteria; Burkholderiales; Comamonadaceae; Hydrogenophaga
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Cellvibrionales; Microbulbiferaceae; Microbulbifer
+    Proteobacteria; Gammaproteobacteria; Gammaproteobacteria Incertae Sedis; Unknown Family_4; Marinicella
+    Proteobacteria; Gammaproteobacteria; Gammaproteobacteria Incertae Sedis; Unknown Family_4; Marinicella
+    Proteobacteria; Gammaproteobacteria; Gammaproteobacteria Incertae Sedis; Unknown Family_4; Marinicella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Chromohalobacter
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Kangiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Pleionea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Pleionea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Pleionea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Marinomonadaceae; Marinomonas
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Oceanospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Oceanospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Pseudohongiellaceae; Pseudohongiella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Bermanella
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Reinekea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Reinekea
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Saccharospirillum
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Aliivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Catenococcus
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Salinivibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+    Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Arenimonas
+    Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Arenimonas
+    Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Arenimonas
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta 2
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Opitutaceae; Alterococcus
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Puniceicoccaceae; Coraliomargarita
+    Verrucomicrobiota; Verrucomicrobiae; Opitutales; Puniceicoccaceae; Pelagicoccus
+    Verrucomicrobiota; Verrucomicrobiae; Verrucomicrobiales; Verrucomicrobiaceae; Verrucomicrobium
+
+

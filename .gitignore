@@ -1,5 +1,5 @@
 /data/raw/Tax4Fun2_ReferenceData_v2
-/data/intermediate
+data/intermediate/*
 /data/raw/SILVA_SSU_r138_2019.RData
 /manuscrito
 /qgis
@@ -13,5 +13,13 @@ RefData.zip
 *DS_Store
 .Rproj.user
 biblio
+!data/intermediate/report.txt
+!data/intermediate/faprotax.tsv
+!data/intermediate/bmntd.Rdata
+!data/intermediate/bnti.rds
+!data/intermediate/deseq_results_merged.rds
+!data/intermediate/tax_df.rds
+!data/intermediate/ps_t_noRep.rds
+!data/intermediate/alpha_div_bt.rds
 
 
