@@ -1,4 +1,15 @@
-# figure of rarefied samples
+###.............................................................................
+# (c) Miguel Camacho Sánchez
+# miguelcamachosanchez AT gmail DOT com // miguelcamachosanchez.weebly.com
+# https://scholar.google.com/citations?user=1M02-S4AAAAJ
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/marsh_metabarcoding
+# May 2021
+###.............................................................................
+#GOAL: figure with rarefied sample seq depth
+#PROJECT: marsh_metabarcoding
+###.............................................................................
+#
 library(phyloseq)
 library(vegan)
 ps <- readRDS("data/intermediate/ps_t_noRep.rds")

@@ -1,4 +1,15 @@
-# produce deseq tables
+###.............................................................................
+# (c) Miguel Camacho Sánchez
+# miguelcamachosanchez AT gmail DOT com // miguelcamachosanchez.weebly.com
+# https://scholar.google.com/citations?user=1M02-S4AAAAJ
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/marsh_metabarcoding
+# May 2021
+###.............................................................................
+#GOAL: produce deseq tables
+#PROJECT: marsh_metabarcoding
+###.............................................................................
+#
 library(DESeq2)
 library(tidyverse)
 
@@ -9,7 +20,7 @@ ds <- readRDS("data/intermediate/deseq2_results.rds")
 tax <- readRDS("data/intermediate/tax_df.rds")
 
 # merge all results into a unique table
-xy <- 
+xy <-
   lapply(ds, function(y) {
     # add names to list in case they are null
     yy <- if(is.null(names(y))) paste("contrast", seq_along(y)) else names(y)

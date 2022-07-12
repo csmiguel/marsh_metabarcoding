@@ -3,18 +3,18 @@
 # miguelcamachosanchez AT gmail DOT com // miguelcamachosanchez.weebly.com
 # https://scholar.google.com/citations?user=1M02-S4AAAAJ
 # https://orcid.org/0000-0002-6385-7963
-# github.com/csmiguel
+# github.com/csmiguel/marsh_metabarcoding
 # August 2021
 ###.............................................................................
 #GOAL: beta diversity. ADONIS permutation test
-#PROJECT: spartina-metarizo
+#PROJECT: marsh_metabarcoding
 ###.............................................................................
 library(vegan)
 library(phyloseq)
 library(dplyr)
 library(flextable)
 
-# variable with permutations
+# define permutations
 nperm <- 9999
 set.seed(123)
 

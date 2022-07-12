@@ -6,7 +6,7 @@
 ###.............................................................................
 #GOAL: to produce a table with reads retained at every step of the
 # filterning process and ASV determination
-#PROJECT: spartina-metarizo
+#PROJECT: marsh_metabarcoding
 ###.............................................................................
 library(dada2)
 library(dplyr)

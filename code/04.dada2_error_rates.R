@@ -3,12 +3,12 @@
 # miguelcamachosanchez AT gmail DOT com // miguelcamachosanchez.weebly.com
 # https://scholar.google.com/citations?user=1M02-S4AAAAJ
 # https://orcid.org/0000-0002-6385-7963
-# github.com/csmiguel
+# github.com/csmiguel/marsh_metabarcoding
 # May 2021
 ###.............................................................................
 #GOAL: estimate error rates
 # estimate error rates of F and R from subsample sequences
-#PROJECT: spartina-metarizo
+#PROJECT: marsh_metabarcoding
 ###.............................................................................
 # the computing power needed growths quadratically with # of seqs
 # [big data](https://benjjneb.github.io/dada2/bigdata.html).

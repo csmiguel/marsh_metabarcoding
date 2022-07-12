@@ -3,9 +3,10 @@
 # miguelcamachosanchez@gmail.com // miguelcamachosanchez.weebly.com
 # https://scholar.google.co.uk/citations?user=1M02-S4AAAAJ&hl=en
 # May 2021
+# github.com/csmiguel/marsh_metabarcoding
 ###.............................................................................
 #GOAL: construct phyloseq objects
-#PROJECT: spartina-metarizo
+#PROJECT: marsh_metabarcoding
 ###.............................................................................
 library(phyloseq)
 library(tidyverse)

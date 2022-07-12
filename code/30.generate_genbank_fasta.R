@@ -1,12 +1,14 @@
 ###.............................................................................
 # (c) Miguel Camacho Sánchez
-# miguelcamachosanchez@gmail.com // miguelcamachosanchez.weebly.com
-# https://scholar.google.co.uk/citations?user=1M02-S4AAAAJ&hl=en
+# miguelcamachosanchez AT gmail DOT com // miguelcamachosanchez.weebly.com
+# https://scholar.google.com/citations?user=1M02-S4AAAAJ
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/marsh_metabarcoding
 # Feb 2022
 ###.............................................................................
-#GOAL: assign taxonomy to ASVs using Silva v138 database
-#PROJECT: spartina-metarizo
-###.............................................................................
+#GOAL: generate input for GenBank
+#PROJECT: marsh_metabarcoding
+###...........................................................................
 library(phyloseq)
 library(ShortRead)
 library(dplyr)
@@ -30,7 +32,7 @@ ShortRead::writeFasta(seqs,"genbank-submission/asvs.fa")
 #   with 2 columns, and only 1 BioSample per ASV. However, each ASV can be present in multiple BioSamples. The
 #   solution that GenBank gave me is to submit the mapping file through the wizard with only one BioSample per
 #   ASV and then another file by email to gb-admin@ncbi.nlm.nih.gov with all the BioSample separated by commas.
-# File 1: 
+# File 1:
 # Sequence_ID	biosample_accession
 # ASV3234 BioSampleID1
 # ASV6728 BioSampleID2

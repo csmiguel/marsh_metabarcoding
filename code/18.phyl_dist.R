@@ -3,11 +3,11 @@
 # miguelcamachosanchez AT gmail DOT com // miguelcamachosanchez.weebly.com
 # https://scholar.google.com/citations?user=1M02-S4AAAAJ
 # https://orcid.org/0000-0002-6385-7963
-# github.com/csmiguel
-# August 2021
+# github.com/csmiguel/marsh_metabarcoding
+# May 2022
 ###.............................................................................
 #GOAL: turnover phylogenetic diversity
-#PROJECT: spartina-metarizo
+#PROJECT: marsh_metabarcoding
 ###.............................................................................
 library(reshape2)
 library(picante)
@@ -18,11 +18,11 @@ library(tidyverse)
 nperm <- 999 # number of permutations
 
 source("code/functions/ps_filter_prevalence.r") # function to filter phyloseq
-source("code/functions/bmntd.r") # function to filter phyloseq
+source("code/functions/bmntd.r") # function to permutate and compute bmntd
 
 ps <- readRDS("data/intermediate/ps_t_noRep.rds") # load phyloseq
 
-##0bserved values for mean nearest taxon distance
+# observed values for mean nearest taxon distance
 otu_obs <- as.data.frame(otu_table(ps)) # observed otu table
 ctree_obs <- cophenetic(phy_tree(ps)) # cophenetic distance
 bmntd_obs <- # observed B mean nearest taxon distance
@@ -123,5 +123,7 @@ bnti <-
   mutate(bnti = (observed - av) / sdev)
 
 # save objects
+# bnti table and observed vs permutated means
 saveRDS(bnti, file = "data/intermediate/bnti.rds")
+# permutations
 save(season_perm, rhiz_perm, file = "data/intermediate/bmntd.Rdata")

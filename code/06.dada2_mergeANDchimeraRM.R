@@ -3,12 +3,12 @@
 # miguelcamachosanchez AT gmail DOT com // miguelcamachosanchez.weebly.com
 # https://scholar.google.com/citations?user=1M02-S4AAAAJ
 # https://orcid.org/0000-0002-6385-7963
-# github.com/csmiguel
+# github.com/csmiguel/marsh_metabarcoding
 # May 2021
 ###.............................................................................
 #GOAL: process dada asvs, invoving merge pairs, makeSequenceTable
 #   and remove chimeras.
-#PROJECT: spartina-metarizo
+#PROJECT: marsh_metabarcoding
 ###.............................................................................
 # load data from dada2::dada
 load("data/intermediate/dada.Rdata") #warning: high RAM consumption
