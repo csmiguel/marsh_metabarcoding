@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6881602.svg)](https://doi.org/10.5281/zenodo.6881602)
+
 
 Camacho-Sanchez, M., María Camacho, Susana Redondo-Gómez, Enrique Mateos-Naranjo. 2022. **Bacterial assemblage in Mediterranean salt marshes: disentangling the relative importance of seasonality, zonation and halophytes.** *Science of the Total Environment*. https://doi.org/10.1016/j.scitotenv.2022.157514
 
