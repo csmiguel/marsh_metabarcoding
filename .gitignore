@@ -1,7 +1,7 @@
 /data/raw/Tax4Fun2_ReferenceData_v2
 data/intermediate/*
 /data/raw/SILVA_SSU_r138_2019.RData
-/manuscrito
+manuscript/*
 /qgis
 /etc
 /test
@@ -21,5 +21,5 @@ biblio
 !data/intermediate/tax_df.rds
 !data/intermediate/ps_t_noRep.rds
 !data/intermediate/alpha_div_bt.rds
-
+!manuscript/submitted_version
 
